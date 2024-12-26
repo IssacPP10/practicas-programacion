@@ -1,0 +1,56 @@
+
+body{
+	font-family: 'Inconsolata', monospace;
+}
+
+.cd{
+	font-size: 100px;
+	-webkit-text-fill-color:#FFFFFF;
+	-webkit-text-stroke:2px;
+	-webkit-text-stroke-color:#0A88D1;
+	font-family: 'Anton', sans-serif;
+}
+.padre{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hijo{
+	line-height: 100px;
+}
+.size{
+	font-size: 25px;
+}
+
+@media screen and (max-width:780px){
+  .cd{
+	font-size: 80px;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+}
+
+@media screen and (max-width:580px){
+  .cd{
+	font-size: 60px;
+	text-align: center;
+	margin-top: 190px;
+}
+}
+
+@media screen and (max-width:365px){
+  .cd{
+	font-size: 45px;
+	text-align: center;
+	
+}
+}
+
+@media screen and (max-width:285px){
+  .cd{
+	font-size: 30px;
+	text-align: center;
+	
+}
+}
